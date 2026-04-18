@@ -1,0 +1,62 @@
+
+body{
+    background-color:#b8e1dd;
+    justify-self: center;
+    position: relative;
+    width: 350px;
+    border:2px #062925 dotted ;
+    padding-left: 10px;
+}
+
+h1{
+    color:#044a42 ;
+    font-family:'Rancho' , serif;
+    font-size: 45px;
+    padding-left: 40px;
+}
+
+input{
+    height: 40px;
+    width: 270px;
+    border-radius: 10px;
+    border: 2px solid #062925;
+    font-family: 'Rancho', serif;
+    font-size: 20px;
+    color: #3a9188;
+}
+
+button{
+    background-color: #062925;
+    color: #b8e1dd;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 30px;
+    font-family: 'Rancho', serif;
+    position: absolute;
+    right: 10px;
+    display: inline;
+}
+
+li{
+    color: #3a9188;
+    font-family: 'Rancho', serif;
+    font-size: 25px;
+}
+.completedTask{
+    text-decoration: line-through;
+    text-decoration-color:#044a42;
+    text-decoration-thickness:3px;
+    text-decoration-style:wavy ;
+}
+.Delete {
+    right: 45px;
+}
+#Add {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
